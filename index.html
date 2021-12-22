@@ -58,19 +58,24 @@
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Weather Visualization of
                         America</strong></h1>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        本页面主要展示了美国部分城市各个月份的光照情况，共包含三个部分：静态折线图、动态条形图和静态地图。三个部分均使用D3.js制作。
+                        本页面主要展示了美国部分城市各个月份的光照情况以及降水情况，共包含：静态折线图、动态条形图和动态地图。均使用D3.js制作。
                     </p>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        均使用iframe框架嵌入。三个原网页分别在：
+                        均使用iframe框架嵌入。原网页分别在：
                     </p>
                     <a class="btn btn-primary display-4" href="https://xiaoq-sd.github.io/UcasMap_D3/index2.html">
                         静态折线图
                     </a>
+                    <a class="btn btn-primary display-4" href="https://xiaoq-sd.github.io/UcasMap_D3/index3.html">
+                        动态地图1
+                    </a>
+                    </br>
                     <a class="btn btn-primary display-4" href="https://xiaoq-sd.github.io/UcasMap_D3/index1.html">
                         动态条形图
                     </a>
+
                     <a class="btn btn-primary display-4" href="https://xiaoq-sd.github.io/UcasMap_D3/index3.html">
-                        静态地图
+                        动态地图2
                     </a>
                 </div>
             </div>
@@ -106,6 +111,10 @@
                             <a class="btn btn-primary display-4" href="https://github.com/XiaoQ-SD">
                                 Github主页
                             </a>
+
+                            <a class="btn btn-primary display-4" href="https://blog.csdn.net/moon_sky1999">
+                                CSDN主页
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +125,7 @@
 
 
 <section data-bs-version="5.1" class="content10 cid-sFAZRnJnnI" id="content10-22">
-    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index2.html" width=1000 height=1000></iframe>
+
 
     <div class="container">
         <div class="row justify-content-center">
@@ -127,16 +136,17 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <p class="mbr-text mbr-fonts-style display-7">
-                    本页面主要展示了美国部分城市各个月份的光照情况，共包含三个部分：静态折线图、动态条形图和静态地图。三个部分均使用D3.js制作。
+                    D3.js绘制静态折线图。共六个城市的数据，蓝色深浅代表该城市纬度的高低。
                 </p>
             </div>
         </div>
     </div>
+
+    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index2.html" width=800 height=1000></iframe>
 </section>
 
 
 <section data-bs-version="5.1" class="content5 cid-sShR3TcuhB" id="content5-3">
-    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index1.html" width=1000 height=1000></iframe>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md">
@@ -146,31 +156,37 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <p class="mbr-text mbr-fonts-style display-7">
-                    数据同上。
-
+                    数据同上，使用D3.js绘制。将静态折线图的形式转为动态条形图的形式。
                 </p>
             </div>
         </div>
     </div>
+
+    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index1.html" width=1000 height=1000></iframe>
 </section>
 
 <section data-bs-version="5.1" class="content5 cid-sShQUPEwDn" id="content5-0">
-    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index3.html" width=1000 height=800></iframe>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md">
 
-                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-2"><strong>动态条形图展示</strong>
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-2"><strong>动态地图展示</strong>
                 </h6>
             </div>
             <div class="col-md-12 col-lg-6">
                 <p class="mbr-text mbr-fonts-style display-7">
-                    数据同上。
-
+                    数据为美国2017年1-9月各个观测站的降水数据。
+                    采用D3.js绘制。
+                    以天为单位，动态展示每天的变化情况。
+                    右下角标注为日期。
+                    上图标注了所有观测点的位置，并以州为单位，展示各个州每天各个观测站测得的平均降水数据。
+                    下图直接展示各个观测站每天测得的降水量。
                 </p>
             </div>
         </div>
     </div>
+    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index3.html" width=1000 height=800></iframe>
+    <iframe src="https://xiaoq-sd.github.io/UcasMap_D3/index4.html" width=1000 height=800></iframe>
 </section>
 
 
